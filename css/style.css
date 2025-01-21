@@ -1,0 +1,126 @@
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('bg5.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right;
+    color: white; 
+    text-align: center;
+}
+
+header {
+    position: sticky; 
+    top: 0; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: #00ffff;
+    padding: 10px 10px;
+    border-bottom: 1px solid #00ffff;
+    z-index: 1000; 
+}
+
+h2 {
+    color: #00ffff;
+}
+
+main {
+padding-top: 70px; 
+}
+
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+ nav a {
+    color: white; 
+    text-decoration: none; 
+}
+
+nav a:hover {
+    color:  #00ffff; 
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10rem 7% 1.4rem;
+    border-radius: 8px;
+}
+
+
+img {
+    max-width: 150%;
+    height: auto;
+    border-radius: 5px; 
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+}
+
+
+.flex-container {
+display: flex;
+justify-content: center; 
+flex-wrap: wrap; 
+}
+
+.flex-container div {
+text-align: justify;
+margin: 20px;
+flex: 1 1 200px; 
+}
+
+.flex-container img {
+max-width: 100%;
+height: auto; 
+border-radius: 5px;
+}
+
+.flex-container iframe {
+max-width: 200%; 
+height: auto;
+border-radius: 5px; 
+}
+
+
+
+/* Laptop */
+@media (max-width: 1366px) {
+html{
+font-size: 100%;
+}
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+html{
+font-size: 80.5%;
+}
+}
+
+/* Mobile Phone */
+@media (max-width: 450px) {
+html{
+font-size: 80%;
+}
+}
+
+
